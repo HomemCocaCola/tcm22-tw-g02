@@ -51,5 +51,5 @@ _Please add at least on section (a file) per Chapter. But you can add more._
 * Chapter 4: [Presentation](doc/c4.md)
 
 ## Team
-* Marco Amaro Oliveira [@MarcoOliveira](https://github.com/marcoamarooliveira)
-* Other team members
+- Vitor Tiago Magalhães Marques [@HomemCocaCola](https://github.com/HomemCocaCola)
+- NOME COMPLETO DO DIOGO [@Diogohj27](https://github.com/Diogohj27)
