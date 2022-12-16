@@ -2,6 +2,8 @@
 
 Repository to host the project developed for 'Tecnologias Web', a second year subject at Universidade da Maia. Developed by Group SIGMAMALES : [@HomemCocaCola](https://github.com/HomemCocaCola), [@Diogohj27](https://github.com/Diogohj27), [@JonasRG24](https://github.com/JonasRG24).
 
+[Link do Site](https://tcm22-tw-g02.netlify.app/)
+
 ## Short theme description
 
 A nossa ideia é de construir a presença online de um clube de futebol, sendo este o Varzim. O clube da Póvoa de Varzim, é um clube de futebol que não tem uma presença online muito forte e como tal, queremos enbarcar nesse desafio. As nossas ideias, é a de construir um site que um fã do clube, consiga receber o melhor da informação sobre o clube, de uma forma prática e num só espaço. Tencionamos ter noticias sobre o clube, datas de futuros jogos e também informação dos devidos jogadores.
