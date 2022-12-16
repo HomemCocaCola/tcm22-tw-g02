@@ -1,6 +1,6 @@
 # TÍTULO DO PROJETO
 
-Repository to host the project developed for 'Tecnologias Web', a second year subject at Universidade da Maia. Developed by Group SIGMAMALES : [@HomemCocaCola](https://github.com/HomemCocaCola), @Diogohj27(https://github.com/Diogohj27), @JonasRG24(https://github.com/JonasRG24).
+Repository to host the project developed for 'Tecnologias Web', a second year subject at Universidade da Maia. Developed by Group SIGMAMALES : [@HomemCocaCola](https://github.com/HomemCocaCola), [@Diogohj27](https://github.com/Diogohj27), [@JonasRG24](https://github.com/JonasRG24).
 
 ## Short theme description
 
