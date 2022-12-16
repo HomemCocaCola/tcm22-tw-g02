@@ -1,0 +1,48 @@
+* {
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 95vh;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 2em, 0em, 2em, 0em;
+}
+
+.main{
+    display: flex;
+    flex: 1;
+
+}
+.left {
+    padding: 3em, 0em, 3em, 0em;
+    flex:1 1 100px;
+}
+
+main {
+    padding: 3em, 0em, 3em, 0em;
+    flex:5 5 150px;
+}
+
+.right {
+    padding: 3em, 0em, 3em, 0em;
+    flex:1 1 100px;
+}
+
+footer {
+    padding: 1em, 0em, 1em, 0em;
+}
+
+@media all and (max-width: 550px){
+    .main{
+        flex-direction: column;
+    }
+    main{
+        padding: 5em, 0em, 5em, 0em;
+    }
+}
