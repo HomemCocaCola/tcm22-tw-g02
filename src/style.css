@@ -29,6 +29,10 @@ body {
     margin: 30px 0;
 }
 
+.logo:hover {
+    opacity: 0.8;
+}
+
 .menu-icon {
     width: 75px;
     cursor: pointer;
