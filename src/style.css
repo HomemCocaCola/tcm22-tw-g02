@@ -7,9 +7,18 @@
 
 body {
     height: 95vh;
-    background-color: darkcyan;
+    background-color: #1d1e20;
     display: flex;
     flex-direction: column;
+    color: #dadadb;
+}
+
+a:visited {
+    color: #d1ad31;
+}
+
+a:link {
+    color: #a31c1b;
 }
 
 .container {
@@ -55,42 +64,47 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: chartreuse;
+    color: #a31c1b;
 }
 
 header {
     padding: 2em, 0em, 2em, 0em;
-    background-color: blue;
+
 
 }
 
 .main {
     display: flex;
     flex: 1;
-    background-color: chartreuse;
+
 }
 
 .left {
     padding: 3em, 0em, 3em, 0em;
     flex: 1 1 100px;
-    background-color: orange;
+
 }
 
 main {
     padding: 3em, 0em, 3em, 0em;
     flex: 5 5 150px;
-    background-color: aqua;
+
 }
 
 .right {
     padding: 3em, 0em, 3em, 0em;
     flex: 1 1 100px;
-    background-color: rgb(197, 20, 220);
+
 }
 
 footer {
     padding: 1em, 0em, 1em, 0em;
-    background-color: crimson;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 30px;
 }
 
 @media all and (max-width: 550px) {
