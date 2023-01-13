@@ -13,6 +13,38 @@ body {
     color: #dadadb;
 }
 
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 500px;
+    color: rgba(255, 255, 255, 1);
+}
+
+header img:hover{
+    opacity: 0.9;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #a31c1b;
+}
+
+
+header h3 {
+    font-style: italic;
+    padding: 10px;
+    color: #d1ad31;
+}
+
+header p {
+    padding: 10px;
+}
+
 a:visited {
     color: #d1ad31;
 }
