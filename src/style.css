@@ -143,6 +143,13 @@ ul li {
     vertical-align: top;
 }
 
+.right table {
+    width: 22em;
+    text-align: left;
+    font-size: 88%;
+    line-height: 1.5;
+}
+
 td [id="topotabela"] {
     text-align: center;
 }
@@ -150,7 +157,8 @@ td [id="topotabela"] {
 table tr td img {
     vertical-align: middle;
     margin-top: 0px;
-    width="18" height="12"
+    width: 18em;
+    height: 12em;
 
 }
 
