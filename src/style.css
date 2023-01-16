@@ -22,7 +22,7 @@ header img {
     color: rgba(255, 255, 255, 1);
 }
 
-header img:hover{
+header img:hover {
     opacity: 0.9;
 }
 
@@ -143,13 +143,17 @@ ul li {
     vertical-align: top;
 }
 
-td [id="topotabela"]{
+td [id="topotabela"] {
     text-align: center;
 }
 
 table tr td img {
-    width: 10px;
+    vertical-align: middle;
+    margin-top: 0px;
+    width="18" height="12"
+
 }
+
 @media all and (max-width: 550px) {
     .main {
         flex-direction: column;
