@@ -146,6 +146,10 @@ ul li {
 td [id="topotabela"]{
     text-align: center;
 }
+
+table tr td img {
+    width: 10px;
+}
 @media all and (max-width: 550px) {
     .main {
         flex-direction: column;
