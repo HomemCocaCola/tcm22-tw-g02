@@ -10,10 +10,11 @@
     <meta name="date" content="2022/12/16">
     <title>Varzim Sport Club</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="XML_Js.js"></script>
     <link rel="icon" type="image/x-icon" href="/src/images/logo.png">
 </head>
 
-<body>
+<body onload="ready()">
     <div class="container">
         <div class="navbar">
             <a href="../index.html"><img src="images/logo.png" class="logo"></a>
@@ -34,92 +35,8 @@
         </aside>
         <main>
             <h1>Futuros Jogos</h1>
-            <table>
-                <tr>
-                    <td>Data</td>
-                    <td>Competição</td>
-                    <td>Adversário</td>
-                    <td>Local</td>
-                    <td>Hora</td>
-                </tr>
-                <tr>
-                    <td>6/1</td>
-                    <td>Liga 3</td>
-                    <td>AD Fafe</td>
-                    <td>Parque Municipal dos Desportos, Fafe</td>
-                    <td>21:00</td>
-                </tr>
-                <tr>
-                    <td>10/1</td>
-                    <td>Taça de Portugal</td>
-                    <td>SL Benfica</td>
-                    <td>Estádio do Varzim, Póvoa de Varzim</td>
-                    <td>20:45</td>
-                </tr>
-                <tr>
-                    <td>14/1</td>
-                    <td>Liga 3</td>
-                    <td>Anadia FC</td>
-                    <td>Estádio do Varzim, Póvoa de Varzim</td>
-                    <td>15:00</td>
-                </tr>
-                <tr>
-                    <td>20/1</td>
-                    <td>Liga 3</td>
-                    <td>FC Felgueiras 1932</td>
-                    <td>Estádio Dr. Machado de Matos, Felgueiras</td>
-                    <td>19:00</td>
-                </tr>
-                <tr>
-                    <td>27/1</td>
-                    <td>Liga 3</td>
-                    <td>AD Sanjoanense</td>
-                    <td>Estádio do Varzim, Póvoa de Varzim</td>
-                    <td>19:00</td>
-                </tr>
-                <tr>
-                    <td>04/2</td>
-                    <td>Liga 3</td>
-                    <td>CDC Montalegre</td>
-                    <td>Dr. Diogo Alves Vaz Pereira, Montalegre</td>
-                    <td>15:00</td>
-                </tr>
-                <tr>
-                    <td>12/2</td>
-                    <td>Liga 3</td>
-                    <td>SC São João de Ver</td>
-                    <td>Estádio do Varizm, Póvoa de Varzim</td>
-                    <td>15:00</td>
-                </tr>
-                <tr>
-                    <td>19/2</td>
-                    <td>Liga 3</td>
-                    <td>Vitória SC B</td>
-                    <td>Estádio D. Afonso Henriques, Guimarães</td>
-                    <td>15:00</td>
-                </tr>
-                <tr>
-                    <td>26/2</td>
-                    <td>Liga 3</td>
-                    <td>Lank Vilaverdense</td>
-                    <td>Campo Cruz do Reguengo, Vila Verde</td>
-                    <td>15:00</td>
-                </tr>
-                <tr>
-                    <td>05/3</td>
-                    <td>Liga 3</td>
-                    <td>Canelas 2010</td>
-                    <td>Estádio do Varzim, Póvoa de Varzim</td>
-                    <td>15:00</td>
-                </tr>
-                <tr>
-                    <td>12/3</td>
-                    <td>Liga 3</td>
-                    <td>USC Paredes</td>
-                    <td>Cidade Desportiva de Paredes, Paredes</td>
-                    <td>15:00</td>
-                </tr>
-            </table>
+            <p id="action01">Carregar Jogos</p>
+            <div id="jogos"></div>
         </main>
         <aside class="right">
         </aside>
@@ -132,4 +49,15 @@
         </p>
     </footer>
 </body>
+<script>
+    function ready() {
+        var pElement = document.getElementById("action01");
+        pElement.style.cursor = "pointer";
+        pElement.onclick = function () {
+            loadData();
+            return false; //to prevent default behaviour;
+        }
+    }
+</script>
+
 </html>

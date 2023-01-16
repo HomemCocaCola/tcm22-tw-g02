@@ -162,6 +162,29 @@ table tr td img {
 
 }
 
+#jogos {
+    width:auto;
+    text-align:center;
+    overflow: hidden;
+}
+#jogos div {
+    width:47%;
+    text-align:left;
+    /* border:solid 2px rgb(255, 255, 255); */
+    margin:1px 0;
+    padding:2px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.col1 {
+    float:left;
+    clear:both;
+}
+.col2 {
+    float:right;
+}
+
 @media all and (max-width: 550px) {
     .main {
         flex-direction: column;
