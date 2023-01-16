@@ -139,6 +139,13 @@ ul li {
     margin-right: 30px;
 }
 
+.right tr {
+    vertical-align: top;
+}
+
+td [id="topotabela"]{
+    text-align: center;
+}
 @media all and (max-width: 550px) {
     .main {
         flex-direction: column;
