@@ -172,17 +172,6 @@ table tr td img {
 }
 
 
-.tabelaplantel,
-table,
-td,
-tr {
-    border: 3px solid #dadadb;
-    border-collapse: collapse;
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
 
 
 #jogos {
