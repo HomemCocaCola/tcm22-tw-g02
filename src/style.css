@@ -200,6 +200,9 @@ table tr td img {
     float: right;
 }
 
+.hide{
+    visibility: hidden;
+}
 @media all and (max-width: 550px) {
     .main {
         flex-direction: column;
