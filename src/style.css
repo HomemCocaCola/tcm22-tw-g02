@@ -167,32 +167,48 @@ td [id="topotabela"] {
 table tr td img {
     vertical-align: middle;
     margin-top: 0px;
-    width: 18em;
-    height: 12em;
+    height: 2em;
 
 }
+
+
+.tabelaplantel,
+table,
+td,
+tr {
+    border: 3px solid #dadadb;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
 
 #jogos {
-    width:auto;
-    text-align:center;
+    width: auto;
+    text-align: center;
     overflow: hidden;
 }
+
 #jogos div {
-    width:47%;
-    text-align:left;
+    width: 47%;
+    text-align: left;
     /* border:solid 2px rgb(255, 255, 255); */
-    margin:1px 0;
-    padding:2px 5px;
+    margin: 1px 0;
+    padding: 2px 5px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .col1 {
-    float:left;
-    clear:both;
+    float: left;
+    clear: both;
 }
+
 .col2 {
-    float:right;
+    float: right;
 }
 
 @media all and (max-width: 550px) {
