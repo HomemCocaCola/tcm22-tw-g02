@@ -143,11 +143,21 @@ ul li {
     vertical-align: top;
 }
 
-.right table {
+.tabelalateral {
     width: 22em;
     text-align: left;
     font-size: 88%;
     line-height: 1.5;
+    border: 1px solid #dadadb;
+    border-collapse: collapse;
+}
+
+.tabelalateral img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
 }
 
 td [id="topotabela"] {
